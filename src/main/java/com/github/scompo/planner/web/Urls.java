@@ -10,4 +10,9 @@ public interface Urls {
 	 */
 	String ROOT = "/";
 
+	/**
+	 * Home url
+	 */
+	String HOME = ROOT + "home";
+
 }

@@ -35,4 +35,9 @@ public class WebPagesTest {
 		mockMvc.perform(get(Urls.ROOT)).andExpect(status().isOk());
 	}
 
+	@Test
+	public void homeShouldRespondOk() throws Exception {
+
+		mockMvc.perform(get(Urls.HOME)).andExpect(status().isOk());
+	}
 }
